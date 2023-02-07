@@ -18,7 +18,7 @@ public class Customer {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
 	private String name;
-	@OneToMany(mappedBy = "customer", cascade = CascadeType.ALL,fetch=FetchType.EAGER)
+	@OneToMany(mappedBy = "customer", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
 	private Set<PhoneNumber> numbers;
 
 	public long getId() {
@@ -46,14 +46,14 @@ public class Customer {
 	}
 
 	public void addPhoneNumber(PhoneNumber number) {
-		if (number != null) {
-			if (numbers == null) {
-				numbers = new HashSet<>();
-			}
-			number.setCustomer(this);
-			numbers.add(number);
+		if (number == null) {
+			return;
 		}
+		if (numbers == null) {
+			numbers = new HashSet<>();
+		}
+		numbers.add(number);
+		number.setCustomer(this);
 
 	}
-
 }

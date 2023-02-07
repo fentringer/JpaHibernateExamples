@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b60e1f08-1867-4f55-9d69-4f0e11e3ea2c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../associations/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../associations/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../associations/src/main/java/com/bharath/springdata/associations/manytomany/entities/Programmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../associations/src/main/java/com/bharath/springdata/associations/manytomany/entities/Programmer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../associations/src/main/java/com/bharath/springdata/associations/onetomany/entities/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../associations/src/main/java/com/bharath/springdata/associations/onetomany/entities/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../associations/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../associations/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../associations/src/test/java/com/bharath/springdata/associations/AssociationsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../associations/src/test/java/com/bharath/springdata/associations/AssociationsApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../componentmapping/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../componentmapping/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../componentmapping/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../componentmapping/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernateinheritance/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernateinheritance/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernateinheritance/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernateinheritance/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../idgenerators/src/main/java/com/bharath/springdata/idgenerators/entities/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../idgenerators/src/main/java/com/bharath/springdata/idgenerators/entities/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../idgenerators/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../idgenerators/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jpqlandnativesql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jpqlandnativesql/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jpqlandnativesql/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../jpqlandnativesql/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jpqlandnativesql/src/test/java/com/bharath/springdata/jpqlandnativesql/JpqlandnativesqlApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jpqlandnativesql/src/test/java/com/bharath/springdata/jpqlandnativesql/JpqlandnativesqlApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bharath/springdata/product/ProductdataApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bharath/springdata/product/entities/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bharath/springdata/product/repos/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bharath/springdata/product/ProductdataApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2LPZCS5J9iEt3bja3vu3KBJF7Tc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b60e1f08-1867-4f55-9d69-4f0e11e3ea2c" name="Changes" comment="" />
+      <created>1675774552609</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675774552609</updated>
+      <workItem from="1675774554799" duration="14000" />
+      <workItem from="1675774579054" duration="20000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

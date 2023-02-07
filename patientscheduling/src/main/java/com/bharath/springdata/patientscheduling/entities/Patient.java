@@ -27,7 +27,9 @@ public class Patient {
 	private Insurance insurance;
 
 	@ManyToMany(fetch = FetchType.EAGER)
-	@JoinTable(name = "patients_doctors", joinColumns = @JoinColumn(name = "patient_id", referencedColumnName = "id"), inverseJoinColumns = @JoinColumn(name = "doctor_id", referencedColumnName = "id"))
+	@JoinTable(name = "patients_doctors",
+			joinColumns = @JoinColumn(name = "patient_id", referencedColumnName = "id"),
+			inverseJoinColumns = @JoinColumn(name = "doctor_id", referencedColumnName = "id"))
 	private List<Doctor> doctors;
 
 	@OneToMany(mappedBy = "patient", cascade = CascadeType.ALL)

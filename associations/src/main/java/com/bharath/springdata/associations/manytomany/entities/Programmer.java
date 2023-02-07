@@ -23,7 +23,9 @@ public class Programmer {
 	@Column(name = "salary")
 	private int sal;
 	@ManyToMany(cascade = CascadeType.ALL,fetch=FetchType.EAGER)
-	@JoinTable(name = "programmers_projects", joinColumns = @JoinColumn(name = "programmer_id", referencedColumnName = "id"), inverseJoinColumns = @JoinColumn(name = "project_id", referencedColumnName = "id"))
+	@JoinTable(name = "programmers_projects",
+			joinColumns = @JoinColumn(name = "programmer_id", referencedColumnName = "id"),
+			inverseJoinColumns = @JoinColumn(name = "project_id", referencedColumnName = "id"))
 	private Set<Project> projects;
 
 	public int getId() {

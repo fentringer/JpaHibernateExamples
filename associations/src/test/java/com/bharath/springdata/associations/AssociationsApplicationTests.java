@@ -42,7 +42,7 @@ public class AssociationsApplicationTests {
 	public void testCreateCustomer() {
 
 		Customer customer = new Customer();
-		customer.setName("John");
+		customer.setName("Eddy");
 
 		PhoneNumber ph1 = new PhoneNumber();
 		ph1.setNumber("1234567890");
@@ -105,7 +105,7 @@ public class AssociationsApplicationTests {
 	@Test
 	@Transactional
 	public void testmtomFindProgrammer() {
-		Programmer programmer = programmerRepository.findById(1).get();
+		Programmer programmer = programmerRepository.findById(7).get();
 		System.out.println(programmer);
 		System.out.println(programmer.getProjects());
 	}

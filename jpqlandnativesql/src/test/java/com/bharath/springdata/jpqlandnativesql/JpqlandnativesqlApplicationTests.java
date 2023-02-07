@@ -40,7 +40,7 @@ public class JpqlandnativesqlApplicationTests {
 
 	@Test
 	public void testFindAllStudents() {
-		System.out.println(repository.findAllStudents(new PageRequest(0, 5, Direction.DESC, "id")));
+		System.out.println(repository.findAllStudents(PageRequest.of(0, 5, Direction.DESC, "id")));
 	}
 
 	@Test

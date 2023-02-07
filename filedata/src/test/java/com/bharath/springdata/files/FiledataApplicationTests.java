@@ -28,7 +28,7 @@ public class FiledataApplicationTests {
 		image.setId(1);
 		image.setName("MAVEN.JPG");
 
-		File file = new File("/Users/bharaththippireddy/Documents/Images/MAVEN.JPG");
+		File file = new File("\\Users\\Fernando Moreira\\Downloads\\Maven.jpg");
 		byte fileContent[] = new byte[(int) file.length()];
 		FileInputStream inputStream = new FileInputStream(file);
 		inputStream.read(fileContent);
@@ -42,7 +42,7 @@ public class FiledataApplicationTests {
 	@Test
 	public void testReadImage() {
 		Image image = repository.findById(1L).get();
-		File file = new File("/Users/bharaththippireddy/Documents/Images/downloaded/" + image.getName());
+		File file = new File("\\Users\\Fernando Moreira\\Downloads\\TesteReadData\\" + image.getName());
 		FileOutputStream fos = null;
 		try {
 			fos = new FileOutputStream(file);

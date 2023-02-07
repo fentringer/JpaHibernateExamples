@@ -1,8 +1,6 @@
 package com.bharath.springdata.idgenerators.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 import org.hibernate.annotations.GenericGenerator;
 
